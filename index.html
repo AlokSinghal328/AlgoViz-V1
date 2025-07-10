@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <title>ALgoViz</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --font-source:"Source Sans 3", "sans-serif";
+        --font-fira: "Fira sans", "sans-serif";
+
+        --color-lightBackground: #FFFDF9;
+        --color-lightNavBar: #F8F7F4;
+        --color-semiLightBackground: #ECEAE3;
+        --color-semiLightBackground2: #D9D9D9;
+        --color-darkBackground: #1E1E1E;
+        --color-darkBackground2: #36342E;
+
+        --color-lightText: #F8F7F4;
+        --color-siteTheme: #F76600;
+        --color-darkText: #201515;
+        --color-darkText2: #1E1E1E;
+        --color-semiDarkText: #767676;
+      }
+    </style>
+</head>
+<body>
+    <div class="main w-full bg-lightBackground font-source text-darkText2 "> 
+        <div class="bg-lightNavBar border-b-1 border-[#ECE9DF] ">
+            <div class="navbar flex justify-between items-center py-2 px-6 container mx-auto md:w-3/5">
+                <div class="flex items-center">
+                <h1 class="font-fira font-semibold text-[min(6vw,25px)] mr-8">AlgoViz</h1>
+
+                <div class="nav-elems hidden lg:flex gap-[min(2vw,15px)]">
+                    <a href="/pages/algorithms/algorithms.html" class="text-sm">Start Here</a>
+                    <a href="/pages/articles/articles.html" class="text-sm">Articles</a>
+                    <a href="/pages/solution/solution.html" class="text-sm">Solutions</a>
+                    <a href="/pages/aboutUs/aboutUs.html" class="text-sm">About Us</a>
+                </div>
+                </div>
+                
+                <div class="flex items-center">
+                <a href="www.github.com">
+                    <button class="px-4 py-2 bg-siteTheme rounded-full text-lightText text-[min(3.5vw,16px)] font-semibold mr-2 leading-none" >GitHub</button>
+                </a>
+                <i class="ri-menu-line lg:hidden font-semibold text-xl"></i>
+                </div>
+                
+       
+            </div>
+        </div>
+
+        <div class="hero flex flex-col items-center justify-between pb-40 md:pb-52">
+            <div class="bg-blue-200 inline-block py-1 px-8 border-1 rounded-xl mt-15 tracking-wide text-[min(3vw,20px)]">
+                <h4>Merge Sorting</h4>
+            </div>
+
+            <h1 class="font-semibold font-fira text-[min(6vw,50px)] text-center mt-7 leading-none text-darkText">The Better Way To Learn <br> Programming</h1>
+
+            <p class="text-center text-[min(2.3vw,20px)] leading-tight mt-4 w-11/12 md:w-4/5 xl:w-1/2 opacity-90 "><b>AlgoViz</b> brings algorithms to life with clear, animated visualizations. Learn faster and understand deeper as you watch each step unfold — perfect for interviews, revision, or mastering the fundamentals of code logic.</p>
+
+            <a href="/pages/algorithms/algorithms.html">
+                    <button class="px-4 py-2 bg-siteTheme rounded-full text-lightText text-[min(4vw,20px)] font-semibold mr-2 leading-none mt-8" >Get Started</button>
+            </a>
+
+
+            <div class="cards mt-20 flex gap-13 flex-wrap justify-center items-center w-10/12">
+                <div class="card w-80 h-94 bg-semiLightBackground rounded-xl ring-2 shadow-[10px_10px_0px_0px_#000] ">
+                    <div class="car-top h-[28px] bg-siteTheme rounded-t-[10px] border-b-2"></div>
+                    <div class="card-content flex flex-col items-center mt-4">
+                        <h4 class="text-2xl font-medium font-fira">Visualize Algorithms</h4>
+                        <p class="text-center w-10/12 text-sm leading-tight mt-2">See how sorting and searching algorithms work, step by step. Understand their flow through real-time visualizations and animations.</p>
+                        <div class="w-10/12 ">
+                            <img src="/images/card-1-algo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-80 h-94 bg-semiLightBackground rounded-xl ring-2 shadow-[10px_10px_0px_0px_#000] ">
+                    <div class="car-top h-[28px] bg-siteTheme rounded-t-[10px] border-b-2"></div>
+                    <div class="card-content flex flex-col items-center mt-4">
+                        <h4 class="text-2xl font-medium font-fira">Visualize Algorithms</h4>
+                        <p class="text-center w-10/12 text-sm leading-tight mt-2">See how sorting and searching algorithms work, step by step. Understand their flow through real-time visualizations and animations.</p>
+                        <div class="w-10/12 ">
+                            <img src="/images/card-1-algo.png" alt="">
+                        </div>
+                    </div>
+                </div><div class="card w-80 h-94 bg-semiLightBackground rounded-xl ring-2 shadow-[10px_10px_0px_0px_#000] ">
+                    <div class="car-top h-[28px] bg-siteTheme rounded-t-[10px] border-b-2"></div>
+                    <div class="card-content flex flex-col items-center mt-4">
+                        <h4 class="text-2xl font-medium font-fira">Visualize Algorithms</h4>
+                        <p class="text-center w-10/12 text-sm leading-tight mt-2">See how sorting and searching algorithms work, step by step. Understand their flow through real-time visualizations and animations.</p>
+                        <div class="w-10/12 ">
+                            <img src="/images/card-1-algo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        
+
+    </div>
+</body>
+</html>
