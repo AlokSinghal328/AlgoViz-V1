@@ -1,2 +1,5 @@
 @import "tailwindcss";
 
+.btn-main {
+  @apply px-4 py-2 rounded-full font-semibold bg-siteTheme text-lightText transition duration-200 hover:bg-darkBackground active:scale-95;
+}
